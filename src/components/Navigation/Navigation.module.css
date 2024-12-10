@@ -1,0 +1,15 @@
+header {
+  position: sticky;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+}

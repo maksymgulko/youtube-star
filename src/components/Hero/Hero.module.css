@@ -1,0 +1,53 @@
+.container {
+  margin-bottom: 30px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.mainText {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.desc {
+  font-weight: 300;
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.buyText {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.buyBtn {
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 200px;
+  background-color: #00b068;
+  border: none;
+  text-transform: uppercase;
+}
