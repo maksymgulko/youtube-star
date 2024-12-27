@@ -4,6 +4,7 @@ import For from "./components/For/For";
 import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
 import Tariffs from "./components/Tariffs/Tariffs";
+import Value from "./components/Value/Value";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Tariffs />
       <For />
       <About />
+      <Value />
     </div>
   );
 }

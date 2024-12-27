@@ -87,6 +87,7 @@ const Tariffs = () => {
           </li>
         </ul>
       </div>
+      {/* <div className={s.line}></div> */}
     </div>
   );
 };

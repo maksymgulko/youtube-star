@@ -1,14 +1,22 @@
+@font-face {
+  font-family: "Chalk";
+  src: url("../../assets/fonts/Stylish Marker demo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   margin-bottom: 30px;
-  background-color: #f1f0f1;
+  /* background-color: #f1f0f1; */
   border-radius: 15px;
   padding: 20px;
 }
 
 .title {
+  font-family: "Chalk", sans-serif;
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 100px;
 }
 
 .tariffs {
@@ -24,7 +32,7 @@
   display: flex;
   flex-direction: column;
   max-width: 350px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -50,9 +58,16 @@
 .button {
   border-radius: 100px;
   border: none;
-  background-color: #00b068;
+  background-color: #ff0033;
   color: white;
   height: 50px;
   width: 200px;
   margin: 0 auto;
+}
+
+.line {
+  margin-top: 50px;
+  width: 100%;
+  height: 1px;
+  background-color: #ff0033;
 }

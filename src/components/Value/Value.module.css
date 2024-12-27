@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Chalk";
+  src: url("../../assets/fonts/Stylish Marker demo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.title {
+  font-family: "Chalk", sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.point {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  width: 300px;
+  height: 200px;
+  align-self: center;
+  z-index: 1;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.dpoint {
+  color: black;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.double {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.ptitle {
+  align-self: center;
+}
+
+.bgpoint {
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-195px);
+  left: 32.5%;
+}
+
+.rtitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.pic {
+  width: 300px;
+  height: 500px;
+}
+
+.reasonsWrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reasons {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

@@ -27,6 +27,7 @@ const About = () => {
       <button className={s.button} type="button">
         Хочу на курс
       </button>
+      {/* <div className={s.line}></div> */}
     </div>
   );
 };

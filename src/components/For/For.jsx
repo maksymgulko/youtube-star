@@ -47,6 +47,7 @@ const For = () => {
           </p>
         </li>
       </ul>
+      {/* <div className={s.line}></div> */}
     </div>
   );
 };

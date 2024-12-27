@@ -4,7 +4,10 @@ const Hero = () => {
   return (
     <div className={s.container}>
       <div className={s.slogan}>
-        <h1>YouTube Стартер: Від Ідеї до Першого Мільйона Переглядів</h1>
+        <h1>
+          <span className={s.chalkUnderline}>YouTube</span> Стартер: Від Ідеї до
+          Першого Мільйона Переглядів
+        </h1>
       </div>
       <div className={s.mainText}>
         <p className={s.desc}>
@@ -36,6 +39,7 @@ const Hero = () => {
           Купити зараз
         </button>
       </div>
+      {/* <div className={s.line}></div> */}
     </div>
   );
 };
