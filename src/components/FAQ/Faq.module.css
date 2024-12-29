@@ -1,0 +1,19 @@
+.container {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Chalk", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.accordion {
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}

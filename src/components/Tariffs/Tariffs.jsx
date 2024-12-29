@@ -31,7 +31,9 @@ const Tariffs = () => {
               </p>
               <p>890 UAH</p>
               <button className={s.button} type="button">
-                <a href="#start">Детальніше</a>
+                <a className={s.listLink} href="#start">
+                  Детальніше
+                </a>
               </button>
             </div>
           </li>
@@ -57,7 +59,9 @@ const Tariffs = () => {
               </p>
               <p>2490 UAH</p>
               <button className={s.button} type="button">
-                <a href="#basic">Детальніше</a>
+                <a className={s.listLink} href="#basic">
+                  Детальніше
+                </a>
               </button>
             </div>
           </li>
@@ -83,7 +87,9 @@ const Tariffs = () => {
               </p>
               <p>4290 UAH</p>
               <button className={s.button} type="button">
-                <a href="#advanced">Детальніше</a>
+                <a className={s.listLink} href="#advanced">
+                  Детальніше
+                </a>
               </button>
             </div>
           </li>

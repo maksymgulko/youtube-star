@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About/About";
 import Courses from "./components/Courses/Courses";
+import Faq from "./components/FAQ/Faq";
 import For from "./components/For/For";
 import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
@@ -19,6 +20,7 @@ function App() {
       <Value />
       <Courses />
       <Reviews />
+      <Faq />
     </div>
   );
 }
