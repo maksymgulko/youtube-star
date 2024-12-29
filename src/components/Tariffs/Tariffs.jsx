@@ -4,7 +4,9 @@ import image from "../../assets/20241022225030_1.jpg";
 const Tariffs = () => {
   return (
     <div className={s.container}>
-      <h2 className={s.title}>Пакети</h2>
+      <h2 id="tariffs" className={s.title}>
+        Пакети
+      </h2>
       <div className={s.tariffs}>
         <ul className={s.tariffsList}>
           <li className={s.tariffItem}>
@@ -29,7 +31,7 @@ const Tariffs = () => {
               </p>
               <p>890 UAH</p>
               <button className={s.button} type="button">
-                Детальніше
+                <a href="#start">Детальніше</a>
               </button>
             </div>
           </li>
@@ -55,7 +57,7 @@ const Tariffs = () => {
               </p>
               <p>2490 UAH</p>
               <button className={s.button} type="button">
-                Детальніше
+                <a href="#basic">Детальніше</a>
               </button>
             </div>
           </li>
@@ -81,7 +83,7 @@ const Tariffs = () => {
               </p>
               <p>4290 UAH</p>
               <button className={s.button} type="button">
-                Детальніше
+                <a href="#advanced">Детальніше</a>
               </button>
             </div>
           </li>

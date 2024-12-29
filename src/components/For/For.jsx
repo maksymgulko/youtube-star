@@ -8,7 +8,9 @@ import algorithm from "../../assets/ai-mi-algorithm-svgrepo-com.svg";
 const For = () => {
   return (
     <div className={s.container}>
-      <h2 className={s.title}>Для кого цей курс?</h2>
+      <h2 id="forwho" className={s.title}>
+        Для кого цей курс?
+      </h2>
       <ul className={s.reasonsList}>
         {/* <li className={s.reason}>
          

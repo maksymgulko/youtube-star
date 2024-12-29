@@ -4,7 +4,9 @@ import image from "../../assets/20241022225030_1.jpg";
 const Value = () => {
   return (
     <div className={s.container}>
-      <h2 className={s.title}>Цінність курсу</h2>
+      <h2 id="value" className={s.title}>
+        Цінність курсу
+      </h2>
       <p className={s.text}>
         Курс YouTube - це ідеальний вибір для тих, хто отримати фінансову
         свободу і працювати з будь якого куточка світу. При вивченні цього курсу

@@ -10,16 +10,16 @@ const Navigation = () => {
           </a>
           <ul className={s.list}>
             <li>
-              <a href="">Для кого</a>
+              <a href="#forwho">Для кого</a>
             </li>
             <li>
-              <a href="">Питання</a>
+              <a href="#faq">Питання</a>
             </li>
             <li>
-              <a href="">Цінність курсу</a>
+              <a href="#value">Цінність курсу</a>
             </li>
             <li>
-              <a href="">Пакети</a>
+              <a href="#tariffs">Пакети</a>
             </li>
           </ul>
         </nav>
