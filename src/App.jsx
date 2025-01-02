@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Channels from "./components/Channels/Channels";
 import Courses from "./components/Courses/Courses";
 import Faq from "./components/FAQ/Faq";
 import For from "./components/For/For";
@@ -14,9 +15,10 @@ function App() {
     <div className="container">
       <Navigation />
       <Hero />
+      <About />
+      <Channels />
       <Tariffs />
       <For />
-      <About />
       <Value />
       <Courses />
       <Reviews />

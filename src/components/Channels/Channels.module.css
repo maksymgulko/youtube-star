@@ -1,0 +1,74 @@
+.container {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Chalk", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.bubblesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.bubble {
+  font-weight: bold;
+  padding: 40px 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.topImg {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ytPic {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.sub {
+  cursor: pointer;
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 100px;
+  padding: 12px 24px;
+  width: 200px;
+  background-color: #ff0033;
+  border: none;
+  text-transform: uppercase;
+}
