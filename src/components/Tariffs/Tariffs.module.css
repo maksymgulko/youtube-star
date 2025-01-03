@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Chalk";
-  src: url("../../assets/fonts/Stylish Marker demo.ttf") format("truetype");
+  src: url("../../fonts/Stylish Marker demo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -62,9 +62,11 @@
   height: 50px;
   width: 200px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .listLink {
   color: inherit;
   text-decoration: none;
+  display: flex;
 }

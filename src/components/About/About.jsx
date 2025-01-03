@@ -1,5 +1,5 @@
 import s from "./About.module.css";
-import pic from "../../assets/20241022225030_1.jpg";
+import pic from "../../assets/far_blue.jpg";
 
 const About = () => {
   return (
@@ -24,10 +24,11 @@ const About = () => {
           до інтернету. Почнімо разом вашу подорож у світ YouTube!`}
         </p>
       </div>
-      <button className={s.button} type="button">
-        Хочу на курс
-      </button>
-      {/* <div className={s.line}></div> */}
+      <a>
+        <button className={s.button} type="button">
+          Хочу на курс
+        </button>
+      </a>
     </div>
   );
 };

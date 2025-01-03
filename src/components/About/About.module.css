@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Chalk";
-  src: url("../../assets/fonts/Stylish Marker demo.ttf") format("truetype");
+  src: url("../../fonts/Stylish Marker demo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,8 +9,8 @@
   margin-bottom: 30px;
   border-radius: 15px;
   padding: 20px;
-  position: relative;
-  background-size: cover;
+  /* position: relative;
+  background-size: cover; */
 }
 
 .title {
@@ -25,6 +25,7 @@
 .wrap {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -34,8 +35,8 @@
 }
 
 .pic {
-  width: 300px;
-  height: 500px;
+  width: 350px;
+  border-radius: 15px;
 }
 
 .button {
@@ -47,6 +48,7 @@
   height: 50px;
   width: 200px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .line {

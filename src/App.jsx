@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Channels from "./components/Channels/Channels";
 import Courses from "./components/Courses/Courses";
 import Faq from "./components/FAQ/Faq";
+import Footer from "./components/Footer/Footer";
 import For from "./components/For/For";
 import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
@@ -23,6 +24,7 @@ function App() {
       <Courses />
       <Reviews />
       <Faq />
+      <Footer />
     </div>
   );
 }
