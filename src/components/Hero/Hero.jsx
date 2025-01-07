@@ -1,5 +1,5 @@
 import s from "./Hero.module.css";
-import image from "../../assets/close_white.jpg";
+import image from "../../assets/1.jpg";
 import { FaYoutube } from "react-icons/fa";
 
 const Hero = () => {

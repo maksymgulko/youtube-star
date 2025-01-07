@@ -1,6 +1,6 @@
 import s from "./Channels.module.css";
-import image from "../../assets/close_blue.jpg";
-import mc from "../../assets/channels4_banner.jpg";
+import image from "../../assets/3.jpg";
+import mc from "../../assets/4.jpg";
 import mce from "../../assets/channels4_banner_en.jpg";
 
 const Channels = () => {

@@ -1,5 +1,5 @@
 import s from "./About.module.css";
-import pic from "../../assets/far_blue.jpg";
+import pic from "../../assets/2.jpg";
 
 const About = () => {
   return (
