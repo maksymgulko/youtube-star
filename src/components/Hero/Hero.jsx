@@ -15,13 +15,13 @@ const Hero = () => {
         <img className={s.heroPhoto} src={image} alt="portrait photo" />
         <div className={s.mainText}>
           <p className={s.desc}>
-            Створюй ютуб канали для себе або свого бізнесу та заробляй
+            Створюй ютуб канали для себе або свого бізнесу та заробляй,
             витрачаючи мінімум часу на створення контенту!
           </p>
           <ul className={s.reasons}>
             <li>
-              <FaYoutube className={s.icon} /> Навчись заробляти на монетизаних
-              ютуб каналах з нуля{" "}
+              <FaYoutube className={s.icon} /> Навчись заробляти на
+              монетизованих ютуб каналах з нуля{" "}
             </li>
             <li>
               <FaYoutube className={s.icon} /> Стань успішним ютубером і
