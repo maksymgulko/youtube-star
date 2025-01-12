@@ -1,7 +1,7 @@
 import s from "./Tariffs.module.css";
-import silver from "../../assets/silver1.jpg";
-import gold from "../../assets/gold1.jpg";
-import diamond from "../../assets/diamond1.png";
+import silver from "../../assets/s2.jpg";
+import gold from "../../assets/g2.jpg";
+import diamond from "../../assets/d2.jpg";
 
 const Tariffs = () => {
   return (

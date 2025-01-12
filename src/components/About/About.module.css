@@ -41,7 +41,7 @@
 
 .button {
   display: block;
-  border-radius: 100px;
+  border-radius: 8px;
   border: none;
   background-color: #ff0033;
   color: white;

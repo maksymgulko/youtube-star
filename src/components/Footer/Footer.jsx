@@ -326,7 +326,11 @@ const Footer = () => {
           </a>
         </li>
         <li className={s.listItem}>
-          <a className={s.social} href="">
+          <a
+            target="_blank"
+            className={s.social}
+            href="https://www.facebook.com/profile.php?id=100010222666932"
+          >
             <FaFacebookSquare />
           </a>
         </li>
