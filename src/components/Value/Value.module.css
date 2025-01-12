@@ -72,6 +72,8 @@
 
 .ptitle {
   align-self: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .bgpoint {
@@ -90,13 +92,16 @@
 
 .pic {
   width: 300px;
-  height: 500px;
+  /* height: 500px; */
   align-self: center;
+  border-radius: 15px;
 }
 
 .reasonsWrap {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+  text-align: center;
 }
 
 .reasons {

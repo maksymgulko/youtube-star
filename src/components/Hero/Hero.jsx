@@ -20,26 +20,30 @@ const Hero = () => {
           </p>
           <ul className={s.reasons}>
             <li>
-              <FaYoutube className={s.icon} /> Навчись заробляти на
-              монетизованих ютуб каналах з нуля{" "}
+              <FaYoutube className={s.icon} /> Навчись створювати ютуб канали
+              легко і просто
             </li>
             <li>
-              <FaYoutube className={s.icon} /> Стань успішним ютубером і
-              перетвори свою роботу на прибутковий бізнес
+              <FaYoutube className={s.icon} /> Заробляй на монетизованих ютуб
+              каналах з нуля
+            </li>
+            <li>
+              <FaYoutube className={s.icon} /> Стань успішним блогером та
+              створюй власні проєкти
             </li>
           </ul>
           <div className={s.buy}>
             <p className={s.buyText}>
               Купуй сьогодні за супер ціною{" "}
-              <span
+              {/* <span
                 style={{
                   textDecoration: "line-through",
                   textDecorationColor: "red",
                 }}
               >
                 $$$
-              </span>{" "}
-              $$$
+              </span>{" "} */}
+              890 грн!
             </p>
             <a>
               <button className={s.buyBtn} type="button">

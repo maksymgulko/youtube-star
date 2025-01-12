@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import About from "./components/About/About";
 import Channels from "./components/Channels/Channels";
@@ -11,20 +10,8 @@ import Navigation from "./components/Navigation/Navigation";
 import Reviews from "./components/Reviews/Reviews";
 import Tariffs from "./components/Tariffs/Tariffs";
 import Value from "./components/Value/Value";
-import Modal from "react-modal";
 
 function App() {
-  Modal.setAppElement("#root");
-  const [isOpen, setIsOpen] = useState(false);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
-
   return (
     <div className="container">
       <Navigation />
@@ -37,7 +24,7 @@ function App() {
       <Courses />
       <Reviews />
       <Faq />
-      <Footer isOpen={isOpen} openModal={openModal} closeModal={closeModal} />
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import s from "./Tariffs.module.css";
-import image from "../../assets/20241022225030_1.jpg";
+import silver from "../../assets/silver1.jpg";
+import gold from "../../assets/gold1.jpg";
+import diamond from "../../assets/diamond1.png";
 
 const Tariffs = () => {
   return (
@@ -10,7 +12,7 @@ const Tariffs = () => {
       <div className={s.tariffs}>
         <ul className={s.tariffsList}>
           <li className={s.tariffItem}>
-            <img className={s.tariffImg} src={image} alt="placeholder" />
+            <img className={s.tariffImg} src={silver} alt="placeholder" />
             <div className={s.tariffText}>
               <h3>Start</h3>
               <p className={s.desc}>
@@ -38,12 +40,12 @@ const Tariffs = () => {
             </div>
           </li>
           <li className={s.tariffItem}>
-            <img className={s.tariffImg} src={image} alt="" />
+            <img className={s.tariffImg} src={gold} alt="" />
             <div className={s.tariffText}>
               <h3>Basic</h3>
               <p className={s.desc}>
-                Для тих, хто намірений не лише спробувати себе в ролі ютубера,
-                а, може, й навтіь заробити на цьому.
+                Для тих, хто готовий не лише спробувати себе в ролі ютубера і
+                заробляти на цьому.
               </p>
               <p>
                 <span style={{ fontWeight: "bold" }}>Тривалість курсу</span>: 3
@@ -66,7 +68,7 @@ const Tariffs = () => {
             </div>
           </li>
           <li className={s.tariffItem}>
-            <img className={s.tariffImg} src={image} alt="" />
+            <img className={s.tariffImg} src={diamond} alt="" />
             <div className={s.tariffText}>
               <h3>Advanced</h3>
               <p className={s.desc}>
