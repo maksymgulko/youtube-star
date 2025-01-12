@@ -27,7 +27,7 @@ const About = () => {
           і доступ до інтернету. Почнімо разом вашу подорож у світ YouTube!
         </p>
       </div>
-      <a>
+      <a className={s.want} href="#tariffs">
         <button className={s.button} type="button">
           Хочу на курс
         </button>
