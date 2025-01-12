@@ -314,15 +314,12 @@ const Footer = () => {
           </p>
         </li>
         <li className={s.listItem}>
-          {/* <p onClick={() => openModal("contacts")} className={s.listLink}>
-            Контакти
-          </p> */}
           <a
             target="_blank"
             className={s.social}
             href="https://www.instagram.com/gulkoiryna/"
           >
-            <FaInstagram />
+            <FaInstagram /> Instagram
           </a>
         </li>
         <li className={s.listItem}>
@@ -331,7 +328,7 @@ const Footer = () => {
             className={s.social}
             href="https://www.facebook.com/profile.php?id=100010222666932"
           >
-            <FaFacebookSquare />
+            <FaFacebookSquare /> Facebook
           </a>
         </li>
       </ul>

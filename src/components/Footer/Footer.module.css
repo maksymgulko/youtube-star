@@ -19,6 +19,7 @@ footer {
 .list {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .listItem {
@@ -35,6 +36,9 @@ footer {
   color: inherit;
   text-decoration: none;
   padding: 20px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
 }
 
 .modalOpen {
