@@ -299,39 +299,47 @@ const Footer = () => {
   Modal.setAppElement("#root");
   return (
     <footer className={s.container}>
-      <a className={s.title} href="#">
-        YouTube <span className={s.listLink}>Star</span>
-      </a>
-      <ul className={s.list}>
-        <li className={s.listItem}>
-          <p onClick={() => openModal("privacyPolicy")} className={s.listLink}>
-            Політика конфіденційності
-          </p>
-        </li>
-        <li className={s.listItem}>
-          <p onClick={() => openModal("contractOffer")} className={s.listLink}>
-            Договір оферти
-          </p>
-        </li>
-        <li className={s.listItem}>
-          <a
-            target="_blank"
-            className={s.social}
-            href="https://www.instagram.com/gulkoiryna/"
-          >
-            <FaInstagram /> Instagram
-          </a>
-        </li>
-        <li className={s.listItem}>
-          <a
-            target="_blank"
-            className={s.social}
-            href="https://www.facebook.com/profile.php?id=100010222666932"
-          >
-            <FaFacebookSquare /> Facebook
-          </a>
-        </li>
-      </ul>
+      <div className={s.wrap}>
+        <a className={s.title} href="#">
+          YouTube <span className={s.listLink}>Star</span>
+        </a>
+        <ul className={s.list}>
+          <li className={s.listItem}>
+            <p
+              onClick={() => openModal("privacyPolicy")}
+              className={s.listLink}
+            >
+              Політика конфіденційності
+            </p>
+          </li>
+          <li className={s.listItem}>
+            <p
+              onClick={() => openModal("contractOffer")}
+              className={s.listLink}
+            >
+              Договір оферти
+            </p>
+          </li>
+          <li className={s.listItem}>
+            <a
+              target="_blank"
+              className={s.social}
+              href="https://www.instagram.com/gulkoiryna/"
+            >
+              <FaInstagram /> Instagram
+            </a>
+          </li>
+          <li className={s.listItem}>
+            <a
+              target="_blank"
+              className={s.social}
+              href="https://www.facebook.com/profile.php?id=100010222666932"
+            >
+              <FaFacebookSquare /> Facebook
+            </a>
+          </li>
+        </ul>
+      </div>
       {currentContent && (
         <Modal
           isOpen={!!modalType}

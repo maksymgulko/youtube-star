@@ -100,3 +100,25 @@
   width: 400px;
   border-radius: 15px;
 }
+
+@media (max-width: 1368px) {
+  .slogan {
+    font-size: 50px;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroPhoto {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 30px;
+  }
+}

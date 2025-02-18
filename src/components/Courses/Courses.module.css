@@ -62,3 +62,16 @@
   margin: 0 auto;
   cursor: pointer;
 }
+
+@media (max-width: 1368px) {
+  .title {
+    font-size: 70px;
+    text-align: center;
+  }
+  .courseTitle {
+    font-size: 30px;
+  }
+  .courseInfo {
+    font-size: 20px;
+  }
+}

@@ -39,3 +39,21 @@
   height: 1px;
   background-color: #ff0033;
 }
+
+@media screen and (max-width: 1367px) {
+  .title {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .reasonsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .reason:nth-child(5) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}

@@ -44,3 +44,26 @@ footer {
 .modalOpen {
   overflow: hidden;
 }
+
+@media (max-width: 1368px) {
+  .container {
+    padding: 10px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .social {
+    padding: 10px;
+  }
+
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
