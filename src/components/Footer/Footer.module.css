@@ -45,6 +45,14 @@ footer {
   overflow: hidden;
 }
 
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media (max-width: 1368px) {
   .container {
     padding: 10px;
